@@ -1,21 +1,8 @@
 body {
   background-color: #fff;
-  background-image: url("../img/gradient.svg");
   background-size: cover;
-  overflow: hidden;
+  overflow-x: hidden;
 }
-#debug {
-  background-color: #fff;
-  padding: 5px;
-  position: absolute;
-  z-index: 2000;
-}
-#debug ul {
-  margin: 0;
-  padding: 0;
-}
-#debug ul li {
-  margin: 0;
-  margin-left: 1em;
-  padding: 0;
+img {
+  z-index: -1000;
 }

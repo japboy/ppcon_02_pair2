@@ -103,7 +103,7 @@ $ ->
         complete: ->
           $(@).fadeOut 'slow', ->
             $(@).remove()
-      $('#playground').append(el)
+      $('.container').append(el)
 
   Window.update()
 

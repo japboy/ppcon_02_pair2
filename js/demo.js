@@ -128,7 +128,7 @@
             });
           }
         });
-        return $('#playground').append(el);
+        return $('.container').append(el);
       };
 
       return Ball;
